@@ -1,0 +1,114 @@
+.sm-info-container {
+  height: 150px;
+}
+
+.sm-board-canvas {
+  background-color: #0079bf;
+  user-select: none;
+  white-space: nowrap;
+  margin-bottom: 10px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sm-board-colum-wrapper {
+  width: 270px;
+  margin: 5px;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.sm-board-colum {
+  background: #E2E4E6;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 100%;
+  position: relative;
+  white-space: normal;
+  padding: 15px 2px;
+}
+
+.sm-card-wrapper {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 6px;
+  max-width: 300px;
+  min-height: 20px;
+  position: relative;
+  z-index: 0;
+}
+.sm-card-wrapper:hover {
+    background-color: #EDEFF0;
+    border-bottom-color: #D6DADC;
+}
+.sm-card-inner-wrapper {
+  overflow: hidden;
+  padding: 6px 6px 2px 8px;
+  position: relative;
+  z-index: 10;
+}
+
+.sm-card-header {
+  color: #4d4d4d;
+  clear: both;
+  display: block;
+  font-weight: 800;
+  margin: 0 0 4px;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.sm-card-content {
+  color: #4d4d4d;
+  clear: both;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 4px;
+  overflow: hidden;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.sm-card-labels-container {
+  margin: 2px 2px 2px 0px;
+  overflow: hidden;
+}
+.sm-card-label {
+  float: left;
+  height: 10px;
+  margin: 0 3px 3px 0;
+  padding: 0;
+  width: 42px;
+  line-height: 75pt;
+  font-size: 8px;
+  border-radius: 2px;
+}
+.sm-card-labels-container > .sm-label-learning {
+  background-color: #C377E0;
+}
+.sm-card-labels-container > .sm-label-nice {
+  background-color: #61BD4F;
+}
+.sm-card-labels-container > .sm-label-danger {
+  background-color: #EB5A46;
+}
+.sm-card-labels-container > .sm-label-warning {
+  background-color: #F2D600;
+}
