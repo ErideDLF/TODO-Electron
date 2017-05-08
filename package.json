@@ -2,21 +2,28 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
+  "main": "src/main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron --debug=5858 .",
+    "reload": "live-reload src --port 35729"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/ErideDLF/TODO-Electron.git",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
+    "learn",
     "demo"
   ],
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "~1.6.2"
+    "electron": "~1.6.2",
+    "electron-rebuild": "^1.5.7",
+    "live-reload": "^1.1.0",
+    "node-inspector": "^1.0.0"
+  },
+  "dependencies": {
+    "superagent": "^3.5.2"
   }
 }
