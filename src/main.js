@@ -16,7 +16,8 @@ function createWindow () {
   mainWindow = new BrowserWindow({
     width: 600,
     height: 600,
-    icon:'path/to/image.png'
+    icon:'../public/favicon.ico',
+    backgroundColor: '#0079bf',
   });
 
   // and load the index.html of the app.

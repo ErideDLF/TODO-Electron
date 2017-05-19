@@ -9,7 +9,6 @@ class API {
           .get(url)
           .query(params)
           .end(function(err, res) {
-            const baseServiceOutput = new BaseServiceOutput();
             if (err) {
                 console.log('[' + rqNumber + '] get: Error: ' + err);
             } else {
